@@ -35,6 +35,7 @@
 
 ### 1. Intro
 - _"왜 우리는 문서 정리와 공유에 시간을 낭비할까?"_
+  → 우리의 현식 : 보안(DRM, 메신저 파일전송 불가, KMS 부재, 네트워크 공유 불가 등)
 
 ### 2. Problem
 - 문서가 많아질수록 **핵심 내용 파악이 어려움**
@@ -49,7 +50,7 @@
 - 챗봇 - 채팅창을 통한 문서 기반 Q&A 및 GPT를 통한 지식 검색
 
 ### 5. Architecture
-- **[Streamlit UI] + [Azure Blob] + [Azure OpenAI GPT]**
+- **[Streamlit UI] + [Azure Blob] + [Azure AI Search] + [Azure OpenAI GPT] **
 - 선택한 파일 → 텍스트 추출 → 요약 요청 → 결과 표시  
 
 ### 6. Demo
